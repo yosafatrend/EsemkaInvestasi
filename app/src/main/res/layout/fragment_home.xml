@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hello, Mrs Name"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="12 November 1961"
+        android:textColor="@color/black"
+        android:layout_marginBottom="48dp"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginBottom="16dp"
+        android:background="#8A8A8A"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nominal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvNominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Rp 123456.00"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keuntungan"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvKeuntungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Rp 123456.00"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentase"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="8dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPresentase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1.54%"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="16sp"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>
